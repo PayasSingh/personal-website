@@ -1,0 +1,26 @@
+/* @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap') */
+
+.navbar {
+    background-color: #56948C;
+    font-family: inherit;
+    /* set font-family to : Alegreya sans; */
+}
+
+.aboutme {
+    margin: auto;
+    color: white;
+    font-size: 15px;
+}
+.aboutme:hover {
+    color: rgb(187, 179, 179);
+    transition: 0.3s;
+}
+
+#linkedin, #github, #email, #resume {
+    color: white;
+    font-size: smaller;
+}
+#linkedin:hover, #github:hover, #email:hover, #resume:hover{
+    color: rgb(175, 194, 180);
+    transition: 0.3s;
+}
