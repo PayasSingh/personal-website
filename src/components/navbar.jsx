@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import 'bootstrap/dist/css/bootstrap.css';          // importing navbar.css in this manner (instead of <link>) to match 
+import 'bootstrap/dist/css/bootstrap.css';          // importing navbar.css in this manner (instead of <link>) to match
 import { Navbar, Nav} from 'react-bootstrap';
 import styles from'./navbar.css';
 
@@ -18,7 +18,7 @@ class NavBar extends Component {
                         {/* the <Nav> renders a div, needed for right, left division of navbar items*/}
                         <Nav className="mr-auto" id="leftText">
                         <p
-                            className="aboutme" 
+                            className="aboutme"
                             onClick= {this.props.handleAbout}
                         >
                             About me
@@ -31,7 +31,7 @@ class NavBar extends Component {
                         <Nav.Link id="github" href="https://github.com/PayasSingh" target="_blank">
                             GitHub
                         </Nav.Link>
-                        <Nav.Link id="resume">
+                        <Nav.Link id="resume" href={process.env.PUBLIC_URL + "/resume.pdf"} target="_blank">
                             Resume
                         </Nav.Link>
                         </Nav>
