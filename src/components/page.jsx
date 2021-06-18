@@ -15,7 +15,7 @@ return (
         <div className="content">
             <div className="pageLeft">
                 As a programmer, over the years, I have come across multiple languages and frameworks,
-                including, but not limited to, <p styles={"color: blue"}>Python</p>, C, Java, JavaScript, MIPS, ReactJS and Django.
+                including, but not limited to, Python, C, Java, JavaScript, MIPS, ReactJS and Django.
                 A lot of my experience lies in Python and JavaScript and I am the most comfortable in
                 these two languages. Through personal and course projects I have gained an interest in
                 web development and would love to further this interest in a professional environment!
@@ -39,7 +39,7 @@ return (
             </div>
         </div>
         <div className="footer">
-            <p> @payassingh </p>
+            <p> ©payassingh </p>
         </div>
     </div>
 )

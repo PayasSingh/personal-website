@@ -41,8 +41,7 @@
     row-gap: 20px;
     align-items: center;
     padding-top: 100px;
-    transform: translate(32%,0);
-    overflow: hidden;
+    transform: translate(30%,0);
 }
 
 .footer {
@@ -52,5 +51,5 @@
     font-size: small;
     color: rgb(128, 122, 122);
     /* transform: translateY(500%); */
-    
+
 }
